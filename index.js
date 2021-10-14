@@ -3,7 +3,7 @@ let { spawn } = require('child_process')
 let path = require('path')
 let fs = require('fs')
 let package = require('./package.json')
-const CFonts  = require('cfonts')
+const CFonts = require('cfonts')
 CFonts.say('Lightweight\nWhatsApp Bot', {
   font: 'chrome',
   align: 'center',
@@ -14,7 +14,6 @@ CFonts.say(`'${package.name}' By @${package.author.name || package.author}`, {
   align: 'center',
   gradient: ['red', 'magenta']
 })
-
 var isRunning = false
 /**
  * Start a js file
